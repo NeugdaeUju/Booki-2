@@ -244,6 +244,45 @@ header img {
         width: 65%;
     }
 
+        /****** Cards : hébèrgement ******/
+        .hebergements-cards .card {
+            width: 33%;
+            margin-top : 33px;
+        }
+
+        .hebergements-cards img {
+            height : 124px;
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+            /****** Cards : content ******/
+            .hebergements-cards .card-content {
+                width: 250px;
+                padding-left: 15px;
+                display : flex;
+                flex-direction: column;
+                justify-content: space-between;
+                box-sizing: border-box;
+            }
+
+            .hebergements-cards .card-title {
+                margin-top : 10px;
+                margin-bottom : 4px;
+            }
+
+            .hebergements-cards .card-subtitle {
+                margin : 0;
+                font-size: var(--card-text-font-size);
+                font-style : var(--card-text-font-style);
+                font-weight: var(--card-text-font-weight);
+            }
+
+            .hebergements-cards .card-rating {
+                margin-bottom : 5px;
+            }
+
     /****** Populaires ***********/
     .populaires {
         width: 32%;
