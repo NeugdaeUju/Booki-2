@@ -26,16 +26,23 @@
         </header>
 
         <main>
+            <!--Hero / Search Form / Filters-->
             <section class="hero-and-form">
+
+                <!--Hero-->
                 <div class="hero">
                     <h1>Trouver votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
+
+                <!--Search Form-->
                 <form>
                     <img src="images/icones/Pinse_lieu.svg" alt="Icon lieu">
                     <input type="search" name="search" id="search" placeholder="Marseille, France">
                     <button>Rechercher</button>
                 </form>
+
+                <!--Filters-->
                 <div class="filters">
                     <h2>Filtres</h2>
                     <button class="filter_button">
@@ -51,6 +58,12 @@
                         <img src="images/icones/Flamme.svg" alt="icon_filter">Nos pépites
                     </button>
                 </div>
+
+                <!--Text Info-->
+                <div class="info">
+                    <img src="images/icones/information.svg" alt="icon_info">
+                    <p>Plus de 500 logements sont diponibles dans cette ville</p>
+                </div>
             </section>
 
             <!--Hébergements et Populaires-->
@@ -58,7 +71,28 @@
 
                 <!--Hébergements à Marseille-->
                 <section class="hebergements">
-
+                    <h2 class="section-title">Hébergement à Marseille</h2>
+                    <div class="hebergements-cards">
+                        <a href="#">
+                            <article class="card"> <!--card hébergement à marseille-->
+                                <img src="images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel du port</h3>
+                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
                 </section>
 
                 <!--Les plus populaires-->
