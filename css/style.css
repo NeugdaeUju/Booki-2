@@ -51,9 +51,9 @@ a {
 
 .section-title {
     margin: 0;
-    font-size: var(--title-font-size);
-    font-style : var(--title-font-style);
-    font-weight: var(--title-font-weight);
+    font-size: var(--header-font-size);
+    font-style : var(--header-font-style);
+    font-weight: var(--header-font-weight);
 }
 
 /****** Header ******/
@@ -247,6 +247,13 @@ header img {
     .hebergements_liste {
             display : flex;
             justify-content: space-between;
+    }
+
+    .lien-plus {
+        font-size : var(--title-font-size);
+        font-style : var(--title-font-style);
+        font-weight: var(--title-font-weight);
+        margin-top : 30px;
     }
 
 
