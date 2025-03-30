@@ -384,6 +384,37 @@ header img {
         }
 
         
+/****** Footer ******/
+footer {
+    background-color: var(--main-bg-color);
+    padding-top : 15px;
+    padding-bottom: 15px;
+    margin-top : 60px;
+    display : flex;
+    flex-direction: row;
+}
+
+    /****** Box Footer ******/
+    .footer_box {
+        width: 33%;
+        padding-left : 15px;
+    }
+
+    /****** Box Footer : content ******/
+    .footer_title {
+        font-size: var(--title-font-size);
+        font-style: var(--title-font-style);
+        font-weight: var(--title-font-weight);
+        margin-bottom : 20px;
+    }
+
+    .links_list a {
+        display : block;
+        margin-bottom : 15px;
+        font-size: var(--text-font-size);
+        font-style: var(--text-font-style);
+        font-weight: var(--text-font-weight);
+    }
 
 
 
