@@ -56,6 +56,30 @@ a {
     font-weight: var(--title-font-weight);
 }
 
+/****** Header ******/
+header {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top : 25px;
+    padding-bottom: 25px;
+}
+
+header img {
+    width: 61.09px;
+    height: 19px;
+}
+
+.lien-nav {
+    margin-left : 30px;
+    padding-top : 25px;
+}
+
+.lien-nav:hover {
+    color : var(--main-color);
+    border-top : solid 2px var(--main-color);
+}
 
 /****** Icones ******/
 
