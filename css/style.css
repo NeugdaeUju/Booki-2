@@ -186,6 +186,10 @@ header img {
         padding-right : 10px;
     }
 
+    .filter_button:hover {
+        background-color: var(--filter-bg-color);
+    }
+
 /****** Icones ******/
 
 .fa-solid {
