@@ -244,9 +244,14 @@ header img {
         width: 65%;
     }
 
+    .hebergements_liste {
+            display : flex;
+            justify-content: space-between;
+    }
+
+
         /****** Cards : hébèrgement ******/
         .hebergements-cards .card {
-            width: 33%;
             margin-top : 33px;
         }
 
@@ -256,7 +261,6 @@ header img {
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
         }
-
             /****** Cards : content ******/
             .hebergements-cards .card-content {
                 width: 250px;
