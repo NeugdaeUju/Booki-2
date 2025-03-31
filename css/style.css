@@ -1,7 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-    color : (--black)
+    color : var(--black)
 }
 
 :root {
@@ -232,7 +232,7 @@ header img {
 
         .euro {
             font-weight: 600;
-            font-size: 14;
+            font-size: 14px;
         }
 
         .neutral-star {
