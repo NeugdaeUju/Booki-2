@@ -543,12 +543,18 @@ footer {
                     }
                 
                 /* Forms : Filters */
-                .filters_button-row {
+                .filters {
+                    flex-direction: column;
+                    align-items: start;
+                }
+
+                .filters_grid {
                     width: 335px;
                     display : grid;
                     grid-template-columns: 162px 162px;
                     grid-template-rows: 50px 50px;
                     gap : 20px;
+                    margin-top : 15px;
                 }
 
                 .filter_button {
