@@ -592,5 +592,36 @@ footer {
             .hebergements-cards .card {
                 margin-top : 15px;
             }
+        
+        /* Activités */
+        .activites {
+            padding : 0 20px;
+        }
+
+            /*Activités : cards*/
+            .activites-cards {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .activites-cards .card {
+                width: 315px;
+            }
+
+            .activites-cards img {
+                height : 141px;
+            }
+
+
+            
+                        .activites-cards .card {
+                            width: 315px;
+                        }
+            
+                        .activites-cards img {
+                            height : 141px;
+            
+                        }
+            
 
 }
