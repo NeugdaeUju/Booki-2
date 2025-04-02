@@ -136,7 +136,7 @@ header img {
         text-align: center;
     }
 
-    form button {
+    .search_button {
         color : var(--white);
         font-size : var(--title-font-size);
         font-style: var(--title-font-style);
@@ -146,7 +146,10 @@ header img {
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         padding : 15px 16px;
+    }
 
+    .search_mobile_button {
+        display : none;
     }
 
     /****** Filters ******/
@@ -488,4 +491,52 @@ footer {
                 color : var(--main-color);
                 border-bottom : solid 2px var(--main-color);
             }
+
+           /* Hero and Forms */
+            .hero-and-forms {
+                padding : 0 20px;
+            }
+
+                /*Forms : Searchbar*/
+                .form {
+                    justify-content: center;
+                    position: relative;
+                }
+
+                .form input {
+                    flex : 1;
+                    border-top-right-radius: 15px;
+                    border-bottom-right-radius: 15px;
+                    padding-left : 20px;
+                }
+
+                input::placeholder {
+                    text-align : start;
+                }
+
+                    /*Bouton de recherche*/
+                    .search_button {
+                        display : none;
+                    }
+
+                    /*Bouton de recherche mobile*/
+                    .search_mobile_button {
+                        background-color: var(--main-color);
+                        filter : drop-shadow(0px 4px 2px rgba (0, 0, 0, 0.3));
+                        border : none;
+                        border-radius: 15px;
+                        margin : 0;
+                        padding : 0;
+                        position : absolute;
+                        right : 0;
+                    }
+
+                    .search_mobile_button img {
+                        height: 17px;
+                        width: 17px;
+                        background-color: var(--main-color);
+                        border : none;
+                        padding : 0 18px;
+                    }
+    
     }
