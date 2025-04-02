@@ -634,11 +634,11 @@ footer {
             /*Activités : cards*/
             .activites-cards {
                 flex-direction: column;
-                align-items: center;
+                justify-content: center;
             }
 
             .activites-cards .card {
-                width: 315px;
+                width: 100%;
             }
 
             .activites-cards img {
