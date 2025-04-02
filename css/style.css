@@ -519,6 +519,18 @@ footer {
             .populaires-cards .card-subtitle {
                 font-size: 13px;
             }
+
+            /*Activités à Marseille*/
+            .activites-cards img {
+                height : 200px;
+            }
+
+            .activites-cards .card-content {
+                height: 70px;
+                display : flex;
+                flex-direction: row;
+                align-items: center;
+            }
     }
 
 /* Small devices (phones, less than 768px) */
