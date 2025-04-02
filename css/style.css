@@ -484,12 +484,12 @@ footer {
                 width: 50%;
                 margin : 0;
                 text-align: center;
-                border-top : none;
             }
 
             .lien-nav:hover {
                 color : var(--main-color);
                 border-bottom : solid 2px var(--main-color);
+                border-top: 0;
             }
 
            /* Hero and Forms */
