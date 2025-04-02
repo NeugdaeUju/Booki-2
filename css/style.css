@@ -612,16 +612,15 @@ footer {
                 height : 141px;
             }
 
+        /*Footer*/
+        footer {
+            flex-direction: column;
+            gap : 30px;
+        }
 
-            
-                        .activites-cards .card {
-                            width: 315px;
-                        }
-            
-                        .activites-cards img {
-                            height : 141px;
-            
-                        }
-            
+        .footer_box {
+            width: 100%;
+            padding-left: 25px;
+        }
 
 }
