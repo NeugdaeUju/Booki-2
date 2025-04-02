@@ -574,4 +574,23 @@ footer {
             height : 33%;
             width: 100%;
             }
-    }
+
+            /* Hébergements */
+            .hebergements-and-populaires .hebergements {
+                background-color: var(--white);
+            }
+
+            .hebergements_liste {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hebergements-cards a {
+                width: 100%;
+            }
+
+            .hebergements-cards .card {
+                margin-top : 15px;
+            }
+
+}
