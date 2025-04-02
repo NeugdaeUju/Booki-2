@@ -388,8 +388,11 @@ header img {
 
     .activites-cards .card {
         margin-top : 33px;
-        width: 297px;
         padding : 0;
+    }
+
+    .activites-cards a {
+        width: 23%;
     }
 
         /****** Card : Content ******/
