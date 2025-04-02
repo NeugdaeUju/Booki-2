@@ -457,5 +457,35 @@ footer {
 
 /* Small devices (phones, less than 768px) */
     @media (max-width: 767.98px) {
-        /* ... */
+        /*General*/
+        .main-container {
+            padding : 0;
+        }
+
+        /*Header*/
+            header {
+                flex-direction : column;
+                align-items : center;
+            }
+
+            nav {
+                display : flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+            }
+
+            .lien-nav {
+                padding-bottom : 20px;
+                border-bottom : solid 2px var(--main-bg-color);
+                width: 50%;
+                margin : 0;
+                text-align: center;
+                border-top : none;
+            }
+
+            .lien-nav:hover {
+                color : var(--main-color);
+                border-bottom : solid 2px var(--main-color);
+            }
     }
