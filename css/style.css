@@ -555,11 +555,23 @@ footer {
                     justify-content: start;
                 }
     
-                .filter_button {
-                    width : 162px;
-                    font-size : 14px;
-                    align-items: center;
-                    justify-content: start;
-                }
-    
+        /* Hébergements et Populaires */
+        .hebergements-and-populaires {
+        flex-direction: column-reverse;
+        }
+            
+        .hebergements-and-populaires section {
+        margin-top : 0;
+        border-radius: 0;
+        }
+            
+            /*Populaires*/
+            .populaires-cards {
+            flex-direction: column;
+            }
+            
+            .populaires-cards a {
+            height : 33%;
+            width: 100%;
+            }
     }
