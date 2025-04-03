@@ -87,14 +87,14 @@
             margin-top : 30px;
         }
 
-        .hero h1 {
+        .hero_title {
             font-size : var(--header-font-size);
             font-style : var(--header-font-style);
             font-weight: var(--header-font-weight);
             margin: 0;
         }
 
-        .hero p {
+        .hero_content {
             font-size : var(--text-font-size);
             font-style : var(--text-font-style);
             font-weight: var(--text-font-weight);
