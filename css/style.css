@@ -154,21 +154,21 @@
             }
 
     /****** Filters ******/
-        .filters {
+        .filter {
             margin-top : 30px;
             display : flex;
             flex-direction: row;
             align-items: center;
         }
 
-        .filters h2 {
+        .filter_title {
             margin-right : 15px;
             font-size : var(--title-font-size);
             font-style : var(--title-font-style);
             font-weight : var(--title-font-weight);
         }
 
-        .filters_grid {
+        .filter_grid {
             display : flex;
             flex-direction: row;
             align-items: center;
@@ -192,7 +192,7 @@
                 margin-right: 20px;
             }
 
-            .filter_button img {
+            .filter_button-image {
                 width : 22px;
                 height : 22px;
                 padding-right : 10px;
@@ -460,7 +460,7 @@
             /****** Hero and Forms ******/
 
                 /****** Filters ******/
-                    .filters {
+                    .filter {
                         flex-direction: column;
                         align-items: start;
                     }
@@ -471,7 +471,7 @@
                             height : 50px
                         }
 
-                        .filter_button img {
+                        .filter_button-image {
                             height: 50%;
 
                         }
@@ -629,12 +629,12 @@
                     
 
                     /****** Filters ******/
-                        .filters {
+                        .filter {
                             flex-direction: column;
                             align-items: start;
                         }
 
-                        .filters_grid {
+                        .filter_grid {
                             width: 335px;
                             display : grid;
                             grid-template-columns: 162px 162px;
