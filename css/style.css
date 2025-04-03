@@ -66,17 +66,17 @@
         padding-bottom: 25px;
     }
 
-    header img {
+    .header_logo {
         width: 61.09px;
         height: 19px;
     }
 
-    .lien-nav {
+    .header_link {
         margin-left : 30px;
         padding-top : 25px;
     }
 
-    .lien-nav:hover {
+    .header_link:hover {
         color : var(--main-color);
         border-top : solid 2px var(--main-color);
     }
@@ -562,7 +562,7 @@
                     width: 100%;
                 }
 
-                .lien-nav {
+                .header_link {
                     padding-bottom : 20px;
                     border-bottom : solid 2px var(--main-bg-color);
                     width: 50%;
@@ -570,7 +570,7 @@
                     text-align: center;
                 }
 
-                .lien-nav:hover {
+                .header_link:hover {
                     color : var(--main-color);
                     border-bottom : solid 2px var(--main-color);
                     border-top: 0;
