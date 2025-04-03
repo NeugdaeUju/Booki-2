@@ -102,14 +102,14 @@
         }
 
     /****** Search Form ******/
-        form {
+        .search_form {
             margin : 30px 0;
             display :flex;
             flex-direction: row;
             justify-content: start;
         }
 
-        form img {
+        .search_form-image {
             width: 14px;
             height: 18px;
             background-color: var(--main-bg-color);
@@ -119,7 +119,7 @@
             padding : 16.5px 18px;
         }
 
-        form input {
+        .search_form-searchbar {
             font-size : var(--title-font-size);
             font-style: var(--title-font-style);
             font-weight: var(--title-font-weight);
@@ -136,7 +136,7 @@
             text-align: center;
         }
 
-        .search_button {
+        .search_form-button {
             color : var(--white);
             font-size : var(--title-font-size);
             font-style: var(--title-font-style);
@@ -149,7 +149,7 @@
         }
 
         /****** Search Form : Mobile Button ******/
-            .search_mobile_button {
+            .search_form-mobile-button {
                 display : none;
             }
 
@@ -582,30 +582,30 @@
                 }
 
                     /****** Search Form ******/
-                        form {
+                        .search_form {
                             justify-content: center;
                             position: relative;
                         }
 
                         /****** Search Form : Searchbar ******/
-                            form input {
+                            .search_form-searchbar {
                                 flex : 1;
                                 border-top-right-radius: 15px;
                                 border-bottom-right-radius: 15px;
                                 padding-left : 20px;
                             }
 
-                            input::placeholder {
+                            ::placeholder {
                                 text-align : start;
                             }
 
                         /****** Search button : Desktop and Tablet buttons ******/
-                            .search_button {
+                            .search_form-button {
                                 display : none;
                             }
 
                         /****** Search Button : Mobile Search Button ******/ 
-                            .search_mobile_button {
+                            .search_form-mobile-button {
                                 display : block;
                                 background-color: var(--main-color);
                                 filter : drop-shadow(0px 4px 2px rgba (0, 0, 0, 0.3));
@@ -619,7 +619,7 @@
                                 height: 53px;
                             }
 
-                            .search_mobile_button img {
+                            .search_form-mobile-button-image {
                                 height: 17px;
                                 width: 17px;
                                 background-color: var(--main-color);
