@@ -280,7 +280,7 @@
                 justify-content: space-between;
         }
 
-        .lien-plus {
+        .hebergements_link-more {
             font-size : var(--title-font-size);
             font-style : var(--title-font-style);
             font-weight: var(--title-font-weight);
