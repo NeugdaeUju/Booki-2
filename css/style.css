@@ -275,7 +275,7 @@
             width: 65%;
         }
 
-        .hebergements_liste {
+        .hebergements_list {
                 display : flex;
                 justify-content: space-between;
         }
@@ -677,7 +677,7 @@
                         background-color: var(--white);
                     }
 
-                    .hebergements_liste {
+                    .hebergements_list {
                         flex-direction: column;
                         align-items: center;
                     }
